@@ -26,6 +26,11 @@ body {
     background-repeat: no-repeat;
 }
 
+.content1pag{
+    flex-direction: column;
+
+}
+
 .logo{
     size: 200px;
 }
@@ -51,6 +56,10 @@ body {
     background-repeat: no-repeat;
 }
 
+.content2pag{
+    flex-direction: column;
+}
+
 .card-container{
     background-color: white;
     border-radius: 25px;
@@ -69,8 +78,35 @@ input{
     color: white;
 }
 
+.product-area{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.produto{
+    height:250px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    text-align: center;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.img-produto{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 form{
     display: grid;
+}
+
+.texto-cadastro{
+    text-align: center;
+    padding-bottom: 5px;
 }
 
 footer{
@@ -79,5 +115,5 @@ footer{
     padding: 25px;
     text-align: center;
     background-color: black;
-    color: white;
+    color: whitesmoke;
 }
