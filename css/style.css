@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.section-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-section-one{
+    background-image: url(../assets/gsbg.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    size: 200px;
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+.background-section-two{
+    background-image: url(../assets/candles.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-container{
+    background-color: white;
+    border-radius: 25px;
+    padding: 25px;
+    max-width: 450px;
+    display: grid;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 12px;
+    background: black;
+    color: white;
+}
+
+form{
+    display: grid;
+}
+
+footer{
+    
+    height: 150px;
+    padding: 25px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
